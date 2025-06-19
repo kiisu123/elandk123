@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
               className="focus:outline-none"
             >
               <img 
-                src="/342424324.png" 
+                src="342424324.png" 
                 alt="El&K株式会社" 
                 className="h-8 w-auto cursor-pointer"
               />
