@@ -14,7 +14,7 @@ const Testimonials: React.FC = () => {
       const imagePromises = portfolioItems.map(item => {
         return new Promise<boolean>((resolve) => {
           const img = new Image();
-          img.src = item.imageUrl;
+          img.src = import.meta.env.BASE_URL + slide.imageUrl;
           img.onload = () => resolve(true);
           img.onerror = () => resolve(false); // Changed to resolve(false) instead of reject
         });

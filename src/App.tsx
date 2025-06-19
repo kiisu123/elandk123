@@ -38,7 +38,7 @@ function App() {
           <div className="bg-white/90 backdrop-blur-sm rounded-lg shadow-md p-8 relative overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="/2434325.jpg"
+                src="2434325.jpg"
                 alt="背景"
                 className="w-full h-full object-cover opacity-5"
               />

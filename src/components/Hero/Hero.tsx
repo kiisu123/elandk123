@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             }`}
           >
             <img
-              src={slide.imageUrl}
+              src={import.meta.env.BASE_URL + slide.imageUrl}
               alt={slide.altText}
               className="h-full w-full object-cover"
             />
